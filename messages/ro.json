@@ -1,0 +1,232 @@
+{
+    "Credentials": {
+        "title": "@ 2025 - Toate drepturile sunt rezervate. Autor - Petcov Daniel"
+    },
+    "LoginPage": {
+        "title": "Logare",
+        "email": "Email",
+        "password": "Parolă",
+        "submit": "Conectează-te",
+        "dontHaveAcc": "Nu ai cont?",
+        "signup": "Crează cont",
+        "errors": {
+            "email": "Emailul trebuie să aibă cel puțin 2 caractere.",
+            "password": "Parola trebuie să aibă cel puțin 2 caractere.",
+            "incorrectPassword": "Datele introduse sunt greșite"
+        }
+    },
+    "SignupPage": {
+        "title": "Crează cont", 
+        "firstName": "Nume",
+        "secondName": "Prenume",
+        "email": "Email",
+        "tel": "Telefon",
+        "password": "Parolă",
+        "confirmPassword": "Confirmă Parola",
+        "submit": "Crează cont",
+        "loginLink": "Ai deja un cont?",
+        "login": "Logheză-te",
+        "errors": {
+            "firstName": "Prenumele trebuie să aibă cel puțin 2 caractere.",
+            "secondName": "Numele trebuie să aibă cel puțin 2 caractere.",
+            "email": "Adresă de email invalidă.",
+            "password": "Parola trebuie să aibă între 6 și 100 de caractere.",
+            "confirmPassword": "Parolele nu se potrivesc.",
+            "passwordExceed": "Parola nu poate avea mai multe de 100 de caractere",
+            "phoneMin": "Numărul de telefon trebuie să aibă cel puțin 5 caractere.",
+            "phoneMax": "Numărul de telefon trebuie să aibă cel mult 15 caractere.",
+            "phoneInvalid": "Numărul de telefon nu este valid pentru Republica Moldova."
+        }
+    },
+    "CartPage": {
+        "title": "Coșul meu",
+        "orderSummary": "Sumar comandă",
+        "total": "Total",
+        "subtotal": "Subtotal",
+        "promo": "Promocod",
+        "apply": "Aplică",
+        "applying": "Se aplică...",
+        "goCheckout": "Finalizează comanda",
+        "seeMore": "Vezi produsele de pe site",
+        "invalidDiscount": "Codul de reducere este invalid.",
+        "removeDiscount": "Sterge reducerea",
+        "discountApplied": "Reducere aplicată",
+        "discountNotAllowed": "Acest cod de reducere nu este valabil pentru tine.",
+        "errorApplyingDiscount": "A apărut o eroare la aplicarea reducerii."
+    },
+    "GeneralBreadcrumbs": {
+        "Gohome": "Acasă"
+    },
+    "CheckoutPage": {
+        "delivery": {
+            "title": "Livrare",
+            "name": "Nume",
+            "phone": "Telefon",
+            "email": "Email",
+            "address": "Adresa",
+            "city": "Oraș",
+            "zipCode": "Zip Cod",
+            "terms": "Am luat la cunoștință despre politica de confidentialitate privind prelucrarea datelor cu caracter personal"
+        },
+        "payment": {
+            "title": "Plată",
+            "cash": "Numerar la primire",
+            "submit": "Achită",
+            "processing": "Se procesează..."
+        },
+        "dialog": {
+            "success": {
+                "title": "Felicitări! comanda dumneavoastră a fost efectuată",
+                "description": "Un document cu comanda dvs. a fost expediat pe e-mail."
+            },
+            "failed": {
+                "title": "Ceva nu a mers bine.",
+                "description": "Vă rugăm să încercați din nou."
+            },
+            "gohome": "Acasă"
+        },
+        "summary": {
+            "subtotal": "Subtotal",
+            "total": "Total",
+            "delivery": "Livrare",
+            "discountApplied": "Reducerea a fost aplicată"
+        },
+        "errors": {
+            "name_min": "Numele trebuie să conțină cel puțin 2 caractere.",
+            "name_max": "Numele trebuie să conțină cel mult 50 de caractere.",
+            "phone_min": "Numărul de telefon trebuie să conțină cel puțin 2 caractere.",
+            "phone_max": "Numărul de telefon trebuie să conțină cel mult 50 de caractere.",
+            "email_invalid": "Adresă de e-mail invalidă.",
+            "address_min": "Adresa trebuie să conțină cel puțin 2 caractere.",
+            "address_max": "Adresa trebuie să conțină cel mult 100 de caractere.",
+            "city_min": "Orașul trebuie să conțină cel puțin 2 caractere.",
+            "city_max": "Orașul trebuie să conțină cel mult 50 de caractere.",
+            "zip_min": "Codul poștal trebuie să conțină cel puțin 2 caractere.",
+            "zip_max": "Codul poștal trebuie să conțină cel mult 20 de caractere.",
+            "terms_required": "Trebuie să acceptați termenii.",
+            "payment_required": "Trebuie să selectați o metodă de plată."
+        }
+    },
+    "ContactPage": {
+        "title": "Contact",
+        "question": "Ai o intrebare? scriene acum",
+        "firstName": "Nume",
+        "secondName": "Prenume",
+        "email": "Email",
+        "phone": "Telefon",
+        "message": "Mesaj",
+        "loading": "Se trimite...",
+        "terms": "Am luat la cunoștință despre politica de confidentialitate privind prelucrarea datelor cu caracter personal",
+        "submit": "Trimite",
+        "errors": {
+            "nameMin": "Numele trebuie să aibă cel puțin 2 caractere.",
+            "nameMax": "Numele trebuie să aibă cel mult 50 de caractere.",
+            "secondMin": "Prenumele trebuie să aibă cel puțin 2 caractere.",
+            "secondMax": "Prenumele trebuie să aibă cel mult 50 de caractere.",
+            "email": "Adresa de email este invalidă.",
+            "phoneMin": "Numărul de telefon trebuie să aibă cel puțin 5 caractere.",
+            "phoneMax": "Numărul de telefon trebuie să aibă cel mult 15 caractere.",
+            "phoneInvalid": "Numărul de telefon nu este valid pentru Republica Moldova.",
+            "messageMin": "Mesajul trebuie să aibă cel puțin 10 caractere.",
+            "messageMax": "Mesajul trebuie să aibă cel mult 500 de caractere.",
+            "terms": "Trebuie să fii de acord cu termenii."
+        },
+        "success": {
+            "title": "Felicitări! mesajul dvs. a fost trimis"
+        },
+        "failed": {
+            "title": "Ceva nu a mers bine.",
+            "description":"Vă rugăm să încercați din nou."
+        }
+    },
+    "CollectionPage": {
+        "noProducts": "Nu sunt produse momentan",
+        "pagination": {
+            "next": "Înainte",
+            "prev": "Înapoi"
+        },
+        "sorting": {
+            "ascending": "Preț crescător",
+            "descending": "Preț descrescător"
+        },
+        "filters": {
+            "title": "Filtre",
+            "byPrice": "Filtrează după preț",
+            "minPrice": "Preț minim",
+            "maxPrice": "Preț maxim",
+            "byVolume": "Volum",
+            "byBrand": "Brand",
+            "apply": "Aplică",
+            "events": {
+                "updated": "Filtrele au fost aplicate",
+                "error": "Upps, a apărut o eroare"
+            }
+        }
+    },
+    "Account": {
+        "orders": {
+            "title": "Comenzi"
+        },
+        "logout": "Delogare",
+        "errors": {
+            "failedLogout": "Logarea nu a reușit"
+        }
+    },
+    "Order": {
+        "noOrders": "Nu ai comenzi",
+        "order": "Nr. comandă",
+        "status": {
+            "title": "Stare comandă",
+            "pending": "în procesare",
+            "shipped": "Expediat",
+            "delivered": "Livrat",
+            "cancelled": "Anulat"
+        },
+        "date": "Data creării",
+        "totalItems": "Total produse",
+        "total": "Total de plată",
+        "productInfo": {
+            "product": "produs",
+            "plural": "e",
+            "title": "Detalii produs",
+            "viewDetails": "Vezi detalii",
+            "orderItems": "Produse comandate",
+            "productTitle": "Denumire produs",
+            "quantity": "Cantitate",
+            "price": "Preț unitar"
+        }
+    },
+    "Searchbar": {
+        "noresults": "Nu au fost gasit rezultate",
+        "loading": "Se caută...",
+        "seeMore": "Vezi mai mult"
+    },
+    "Product": {
+        "addToCart": "Cumpără",
+        "addedSuccesfully": "Produsul a fost adaugat cu succes",
+        "codProdus": "Cod produs",
+        "brand": "Producător",
+        "volum": "Volum"
+    },
+    "Footer": {
+        "ourAddress": "Adresa noastră"
+    },
+    "Megamenu": {
+        "back": "Înapoi"
+    },
+    "Wishlist":{
+        "title": "Favorite",
+        "noProducts": "Lista de favorite este goală",
+        "noUser": "Trebuie să vă logați!"
+    },
+    "Brands":{
+        "title": "Branduri",
+        "loading": "Se caută...",
+        "noBrands": "Nu sunt branduri disponibile"
+    },
+    "ProductList": {
+        "noProducts": "Nu sunt produse disponibile",
+        "loading": "Se caută...",
+        "seeMore": "Vezi mai mult"
+    }
+}
