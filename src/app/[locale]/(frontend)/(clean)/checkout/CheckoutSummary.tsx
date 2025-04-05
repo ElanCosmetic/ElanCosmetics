@@ -22,7 +22,8 @@ const CheckoutSummary = ({ discount, delivery }: { discount: DiscountType | null
             : discount.value
         : 0;
 
-    const total = subtotal - discountAmount + delivery;
+    let total = subtotal - discountAmount;
+    if (total < 500) total += delivery; // Add delivery fee if total is less than 500 MDL
 
     return (
         <div className="border border-gray-300 text-gray-700 p-5 rounded-2xl h-fit flex flex-col gap-10 max-h-[450px] md:max-h-none overflow-y-auto">
