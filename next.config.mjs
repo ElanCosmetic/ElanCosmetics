@@ -7,9 +7,9 @@ const nextConfig = {
     remotePatterns: [
       {
         protocol: 'https',
-        hostname: 'pub-8f27dac0e3e64617922a8af7758dbbf7.r2.dev',
+        hostname: 'pub-136c0d4103a4428c9a0d7dd387ce8b0e.r2.dev',
         port: '',
-        pathname: '/elen-cosmetic/**',
+        pathname: '/elancosmetic/**',
       }
     ], 
   }

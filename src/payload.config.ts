@@ -80,12 +80,13 @@ export default buildConfig({
       collections: {
         media: {
           generateFileURL: ({ filename }) => {
-            return `${process.env.S3_PUBLIC_BUCKET_URL}/elen-cosmetic/${filename}`
+            return `${process.env.S3_PUBLIC_BUCKET_URL}/elancosmetic/${filename}`
           },
           disableLocalStorage: true,
-        }
+        },
       },
       bucket: process.env.S3_BUCKET || '',
+
       config: {
         credentials: {
           accessKeyId: process.env.S3_ACCESS_KEY_ID || '',
@@ -110,13 +111,13 @@ export default buildConfig({
     defaultLocale: 'ro'
   },
   email: nodemailerAdapter({
-    defaultFromAddress: 'noreply@elencosmetic.com',
+    defaultFromAddress: 'noreply@elan-cosmetic.com',
     defaultFromName: 'ElenCosmetic',
     transportOptions: {
       host: process.env.SMTP_HOST,
       port: 587,
       auth: {
-        user: '87d670002@smtp-brevo.com', // Keep this as the SMTP login
+        user: '89a562001@smtp-brevo.com', // Keep this as the SMTP login
         pass: process.env.SMTP_PASS,
       },
     },

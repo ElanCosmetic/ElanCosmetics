@@ -14,7 +14,7 @@ export const Header: GlobalConfig = {
             label: 'Logo',
             type: 'relationship',
             relationTo: 'media',
-            required: true
+            hidden: true
         },
         {
             name: 'menuItems',

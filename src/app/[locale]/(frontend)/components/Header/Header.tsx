@@ -25,10 +25,6 @@ const Header = async ({ params }: { params: Promise<{ locale: string }> }) => {
         locale: locale as 'ro' | 'ru' || 'ro'
     })
 
-    const logoUrl = typeof header.logo === 'string'
-        ? `/api/media/${header.logo}`
-        : header.logo.url;
-
     return (
         <Sheet>
             <Megamenu items={header.menuItems} locale={locale} />
@@ -45,16 +41,7 @@ const Header = async ({ params }: { params: Promise<{ locale: string }> }) => {
                         </Button>
                     </SheetTrigger>
                     <Link href="/" className="flex justify-center mx-auto">
-                        {logoUrl ?
-                            <Image
-                                src={logoUrl}
-                                alt={typeof header.logo !== 'string' ? header.logo.alt : 'Logo'}
-                                width={typeof header.logo !== 'string' ? header.logo.width ? header.logo.width : 50 : 50}
-                                height={typeof header.logo !== 'string' ? header.logo.height ? header.logo.height : 50 : 50}
-                                className="w-[120px]"
-                            />
-                            : <Logo width={110} color="#374151" />
-                        }
+                        <Logo width={100} color="#374151" />
                     </Link>
                     <div className="flex gap-5 items-center justify-end text-gray-700">
                         <SearchBar />

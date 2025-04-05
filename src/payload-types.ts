@@ -793,7 +793,7 @@ export interface Homepage {
 export interface Header {
   id: string;
   upperHeader?: string | null;
-  logo: string | Media;
+  logo?: (string | null) | Media;
   menuItems: {
     label: string;
     linkType: 'internal' | 'external';
