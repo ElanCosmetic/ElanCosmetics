@@ -11,7 +11,8 @@ const nextConfig = {
         port: '',
         pathname: '/elancosmetic/**',
       }
-    ], 
+    ],
+    unoptimized: true, 
   }
 };
 
