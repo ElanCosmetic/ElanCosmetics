@@ -5,7 +5,7 @@ const Credentials = async () => {
     const year = new Date().getFullYear();
     return (
         <p className="text-xs md:text-sm font-normal text-center">
-            {year} - {t('title')}
+            @{year} - {t('title')}
         </p>
     )
 }
