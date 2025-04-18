@@ -73,6 +73,7 @@ const Cart = () => {
                                     price={item.price}
                                     quantity={item.quantity}
                                     productId={item.productId}
+                                    locale={locale}
                                 />
                             );
                         }
@@ -88,6 +89,7 @@ const Cart = () => {
                                     price={item.price}
                                     quantity={item.quantity}
                                     productId={item.productId}
+                                    locale={locale}
                                 />
                                 <Separator />
                             </div>
