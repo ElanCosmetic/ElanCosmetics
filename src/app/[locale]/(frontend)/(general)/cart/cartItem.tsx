@@ -1,5 +1,5 @@
 import Image from "next/image"
-import Link from "next/link";
+import { Link } from "@/i18n/navigation";
 import RemoveItem from "./removeItem";
 import Counter from "./counter";
 
